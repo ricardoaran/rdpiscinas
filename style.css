@@ -5,16 +5,17 @@ body {
     background-color: #f4f4f4;
 }
 
+
 header {
-    background-color: rgba(0, 51, 102, 0.8); /* Azul escuro com transparência */
-    border-radius: 20px; /* Bordas arredondadas */
-    padding: 20px;
+    background-color: #003366;
     color: white;
+    text-align: center;
+    padding: 40px;
 }
 
 header h1 {
-    font-size: 36px;
-    text-align: center;
+    font-size: 3rem;
+    margin: 0;
 }
 
 header p {
