@@ -20,4 +20,4 @@ Este site foi desenvolvido para apresentar os serviços da RD Piscinas e permiti
 O site pode ser hospedado no GitHub Pages ou em qualquer serviço de hospedagem de páginas estáticas.
 
 ## Contato
-contato@rdpiscinas.com.br
+rd.piscinas@hotmail.com
