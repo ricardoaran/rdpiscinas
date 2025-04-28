@@ -6,6 +6,26 @@
     <title>RD Piscinas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.galeria-grid').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: true,
+      dots: true
+    });
+  });
+</script>
+    
 <body>
     <header>
         <h1>RD Piscinas</h1>
@@ -34,18 +54,16 @@
                 <li><strong>Reformas:</strong> Atualize sua piscina com o que há de melhor no mercado.</li>
             </ul>
         </section>
-        
+
 <section id="galeria">
     <h2>Galeria de Projetos</h2>
     <div class="galeria-grid">
-        <img src="imagens/p.alvenaria-01.jpg" alt="Piscina Luxuosa 1">
-        <img src="imagens/p.alvenaria-02.jpg" alt="Piscina Luxuosa 2">
-        <img src="imagens/p.alvenaria-03.jpg" alt="Piscina Luxuosa 3">
+        <div><img src="https://github.com/ricardoaran/rd-piscinas/raw/main/imagens/p.alvenaria-01.jpg" alt="Piscina Luxuosa 1"></div>
+        <div><img src="https://github.com/seu-usuario/rd-piscinas/raw/main/imagens/p.alvenaria-02.jpg" alt="Piscina Luxuosa 2"></div>
+        <div><img src="https://github.com/seu-usuario/rd-piscinas/raw/main/imagens/p.alvenaria-03.jpg" alt="Piscina Luxuosa 3"></div>
     </div>
 </section>
-
-</section>
-
+        
         <section id="orcamento">
             <h2>Solicite seu Orçamento</h2>
             <form action="https://formspree.io/f/SEU_CODIGO" method="POST">
